@@ -13,3 +13,9 @@ console.log(ageCalculator("Ferdinand", 1988, 2015));
 // }
 
 // console.log(printf("1", "2", "9"));
+
+// my code could not pass lint bot again (might be due to Prettier)
+// the following is copied from a repo
+// function ageCalculator(name, yearOfBirth, currentYear){
+//   return (name + " is " + (currentYear - yearOfBirth) + " years old.");
+// }
