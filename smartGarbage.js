@@ -6,6 +6,7 @@ const smartGarbage = function (trash, bins) {
   switch (trash) {
     case "waste":
       bins["waste"]++;
+      // Object.keys notation does not work?
       // Object.keys(bins[1]) + 1;
       break;
     case "recycling":
